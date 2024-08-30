@@ -1,0 +1,29 @@
+.titlebar{
+    background-color: hsl(196, 81%, 32%);
+}
+.subs{
+    background-attachment: fixed;
+    background-color: rgb(23, 178, 234);
+    color: white;
+    font-size: x-large;
+    background-blend-mode: luminositys;
+}
+.pimg{
+ border-radius: 100%;
+ box-shadow: solid hsl(180, 33%, 99%);
+ border: solid white;
+}
+.viewp :hover {
+    background-color: rgb(80, 218, 80);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+    border-radius: 100px;
+    width:25px;
+    cursor: pointer;
+}
+
+.skills ul{
+    font-size: medium;
+    color: black;
+    
+}
