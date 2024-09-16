@@ -1,0 +1,59 @@
+/*ODD
+  1.Achieve mandatory field using css*/
+  
+  .required::after {
+    content: "*";
+    color:rgb(255, 0, 0);
+}
+
+
+/* 2.onclick make blue highlight*/
+
+.highlight:focus {
+    border: 4px solid blue;
+   
+}
+
+
+/* 3.mouse over label text green*/
+
+.required:hover {
+    color: green;
+    font-size: large;
+}
+
+
+/* 4.mouse over non mandatory label text yellow*/
+
+.notrequired:hover {
+    color: yellow;
+    font-size: large;
+}
+  
+
+  .highlight {
+      border-radius: 8px;
+  }
+
+ /* DROPDOWN SELECT  SHOULD HAVE SHADOW*/
+
+select:focus {
+    box-shadow: 3px 3px 4px 4px rgb(69, 69, 74);
+}
+/*DROPDOWN VALUES HAVE ALTERNATE COLORS*/
+
+option:nth-child(odd) {
+    background-color: rgb(197, 43, 53);
+    color: white;
+}
+option:nth-child(even) {
+    background-color: #090909;
+    color: white;
+}
+
+input:checked+span {
+    color: red;
+}
+label[class=required]::first-letter{
+    color: blue;
+}
