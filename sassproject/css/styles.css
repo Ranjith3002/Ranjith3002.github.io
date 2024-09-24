@@ -27,6 +27,7 @@ section.intro p {
   font-size: 1.2rem;
   color: rgb(12, 12, 12);
   font-style: italic;
+  text-align: center;
 }
 section.intro p a {
   text-decoration: none;
@@ -52,6 +53,26 @@ body nav a {
   border: solid 3px white;
   background-color: #0e0e0e;
   color: #efeeee;
+}
+
+.img1{
+  display: grid;
+ grid-template-columns: 1fr 2fr;
+ margin-right: -10px;
+ margin-left: -10px;
+  
+}
+
+.img1 .ig1{
+  border: 3px solid #0c0c0c;
+  box-shadow: #0c0c0c 5px;
+  padding: 5px;
+}
+
+.img1 .ig2{
+  border: 3px solid #0e0c0c;
+ box-shadow: #0c0c0c 5px;
+ padding: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
