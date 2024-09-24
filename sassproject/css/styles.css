@@ -1,0 +1,57 @@
+header {
+  background-color: rgba(6, 136, 132, 0.9490196078);
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.5rem;
+}
+
+section.intro {
+  padding: 2em;
+  background-color: hsl(196, 87.8787878788%, 83.5%);
+  color: white;
+}
+section.intro h1 {
+  text-align: center;
+  font-family: "Arial Narrow Bold", sans-serif;
+  color: darkblue;
+}
+section.intro h2 {
+  color: darkblue;
+  font-size: 2rem;
+  text-align: center;
+}
+section.intro p {
+  font-size: 1.2rem;
+  color: rgb(12, 12, 12);
+  font-style: italic;
+}
+section.intro p a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #34495e;
+  color: #ecf0f1;
+  padding: 1em;
+  text-align: center;
+}
+
+body nav {
+  background-color: gray;
+  padding: 40px;
+  padding-left: 20PX;
+  padding-right: 20PX;
+}
+body nav a {
+  padding: 10px;
+  align-items: flex-end;
+  text-decoration: none;
+  border: solid 3px white;
+  background-color: #0e0e0e;
+  color: #efeeee;
+}
+
+/*# sourceMappingURL=styles.css.map */

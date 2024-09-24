@@ -1,0 +1,21 @@
+// Importing partials
+@import 'variables';
+@import 'header';
+@import 'intro';
+@import 'footer';
+
+body nav{
+    
+    background-color: gray;
+    padding: 40px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    a{
+        padding: 10px;
+      align-items: flex-end;
+        text-decoration: none;
+        border: solid 3px white;
+        background-color: #0e0e0e;
+        color: #efeeee;
+      }
+}
