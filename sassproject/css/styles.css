@@ -55,24 +55,19 @@ body nav a {
   color: #efeeee;
 }
 
-.img1{
-  display: grid;
- grid-template-columns: 1fr 2fr;
- margin-right: -10px;
- margin-left: -10px;
-  
-}
 
-.img1 .ig1{
+
+.img1 #ig1{
   border: 3px solid #0c0c0c;
   box-shadow: #0c0c0c 5px;
   padding: 5px;
 }
 
-.img1 .ig2{
+.img1 #ig2{
   border: 3px solid #0e0c0c;
  box-shadow: #0c0c0c 5px;
  padding: 5px;
 }
+
 
 /*# sourceMappingURL=styles.css.map */
