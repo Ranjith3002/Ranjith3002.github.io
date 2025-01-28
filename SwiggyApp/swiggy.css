@@ -1,0 +1,311 @@
+.swiggy{
+    height: 90px;
+    width: 90px;
+    padding-right: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    
+}
+.list{
+    font-size:20px;
+    display: flex;
+    
+    padding-top: 50px;   
+}
+
+
+.head{
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    padding-left: 200px;
+    height: 120px;
+    width:1280px ;
+    /* border: 1px solid black; */
+    background-color:white;
+        position: sticky;
+        top:0;
+    
+}
+
+
+.other{
+    padding-right: 150px;
+    text-decoration:underline;
+    
+}
+
+.swig {
+    padding-left: 100px;
+
+    
+}
+.first :hover{
+    color: orange;
+}
+.second :hover{
+    color: orange;
+}
+.third :hover{
+    color: orange;
+}
+.fourth :hover{
+    color: orange;
+}
+.fifth :hover{
+    color: orange;
+}
+.sixth :hover{
+    color: orange;
+}
+.seventh :hover{
+    color:orange;
+}
+
+.search{
+    padding-left: 50px;
+    
+}
+.offer{
+    padding-left: 50px;
+    
+}
+.hello{
+    padding-left: 50px;
+    
+}
+.sigin{
+    padding-left: 50px;
+    
+}
+.cart{
+    padding-left: 50px;
+    
+}
+.head1{
+    /* /* height: 300px;
+    width: 1500px; */
+    /* border: 1px solid black; */ 
+    display: flex;
+    padding-left:250px;
+    padding-top: 25px;
+    
+
+}
+.menulist{
+    display: flex;
+    font-size:15px;
+    font-style: initial;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    position: -webkit-sticky;
+    /* position: sticky;  */
+
+
+    
+}
+
+.box1{
+    /* padding-left: 250px; */
+    /* padding-top: 30px; */
+    
+    
+}
+.idly{
+    height: 150px;
+    width: 150px;
+    padding-left: 250px;
+  
+}
+.dosa{
+    height: 150px;
+    width: 150px;
+    padding-left: 90px;
+}
+.do{
+    padding-left: 150px;
+}
+.id{
+    padding-left: 300px;
+    padding-bottom: 80px;
+}
+.pizza{
+    height: 150px;
+    width: 150px;
+    padding-left: 100px;
+}
+.piz{
+    padding-left: 150px;
+}
+
+.poori{
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+}
+.poo{
+    padding-left: 100px;
+}
+.burger{
+    height: 150px;
+    width: 170px;
+    padding-left: 50px;
+}
+.bur{
+    padding-left: 100px;
+}
+.chinese{
+    height: 130px;
+    width: 130px;
+    padding-left: 50px;
+}
+.chin{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+.head2{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+ .head1 images{
+    display: flex;
+ }  
+
+.coc{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;    
+}
+/* .box2 :hover{
+    transform:scale(0.5);
+    transition: 1s;
+} */
+
+.kfc{
+        height: 270px;
+        width: 300px;  
+        border-radius: 30px;
+        
+        
+}
+.mcd{
+    height: 270px;
+    width: 300px; 
+    border-radius: 30px;
+ 
+}
+.a2b{
+    height: 270px;
+    width: 300px; 
+    border-radius: 30px;
+}
+.menulist2{
+    display: flex;
+    padding-left: 250px;
+    gap: 20px;
+     transition-timing-function: ease-in;
+     transition: 0.3s;
+}
+
+.menulist2 :hover{
+    transform: scale(1.02);
+}
+.coloum3 :hover{
+    transform: scale(1.02);
+}
+
+
+.star{
+    color: green;
+}
+.staricon{
+    font-weight:bolder;
+}
+.head3{
+    padding-left: 250px;
+    padding-top: 50px;
+}
+.orderprocedure{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 150px;
+    font-weight: bold;
+    padding-right: 250px;
+    height: 150px;
+    width: 1250px;
+    /* border: 1px solid black; */
+    background-color: azure;
+    position: sticky;
+    top: 1px;;
+    
+}
+
+.biriyani{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;
+}
+.ambur{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;
+}
+.meals{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;
+}
+.vegrice{
+    height: 270px;
+    width: 300px;
+    border-radius: 30px;
+}
+.coloum3{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 250px;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.locations{
+    display:flex;
+    justify-content: space-evenly;
+}
+.loc1{
+    padding-left: 50px;
+   
+}
+.head3{
+    padding-left: 170px;
+}
+.loc2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.black{
+    height: 450px;
+    width: 1650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom{
+    color: white;
+    
+}
+.bot{
+    padding-left: 200px;}
+
+    .bb{
+    padding-right: 100px;
+}
