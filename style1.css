@@ -258,25 +258,6 @@ color:  red;
 }
 
 
-@media only screen and (max-width: 480px) {
-    .Home {
-        padding: 10px 2%;
-    }
-    .home-content h1 {
-        font-size: 1.2em;
-    }
-    .home-content p {
-        font-size: 0.8em;
-    }
-    .btn-box {
-        flex-direction: column;
-        width: 100%;
-    }
-    .img-box img {
-        width: 200px;
-        height: 200px;
-    }
-}
 
 /*----------------------SKILL-CONTENGT----------------------------------*/
 
@@ -979,8 +960,8 @@ html, body {
         margin-top: 20px;
     }
     .img-box img {
-        width: 250px;
-        height: auto;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
     }
     .btn-box {
