@@ -165,22 +165,44 @@
  <!----------------------CONTACT-FORM---------------------------------->
 
 
-<section class="contact-section" id="contact">
-    <div class="contact-form" >
-        <h2 class="contact-me">Contact<span style="color:white)">Me<img src="https://cdn-icons-png.flaticon.com/512/5075/5075578.png" data-aos="zoom-in" alt="" style="width:50px;height:50px;"></span></h2>
-        <form action="#">
-            <div class="input-box" >
-                <input type="text" name="name" placeholder="Full Name*" required><br>
-                <input type="email" name="email" placeholder="Email*" required>
-                <input type="number" name="number" placeholder="Mobile Number">
-            </div>
-            <div>
-                <textarea name="message" placeholder="Text"></textarea><br> 
-                <button type="submit" class="sendme">Send Message</button>
-            </div>
+ <section id="contact" class="contact-section">
+    <div class="contact-form">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Full Name*" required>
+            <input type="email" id="email" placeholder="Email*" required>
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea id="message" placeholder="Your Message*" required></textarea>
+            <button type="submit">Send Message</button>
         </form>
     </div>
 </section>
+
+<script>
+    (function(){
+      emailjs.init({
+        publicKey: "MYxWgaLBbmEqIrpqY",
+      });
+   })();
+
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+        emailjs.send("service_8qnsmym", "template_oecg2sd", {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            subject: document.getElementById("subject").value,
+            message: document.getElementById("message").value
+        }).then(
+            function(response) {
+                alert("Message sent successfully!");
+            },
+            function(error) {
+                alert("Failed to send message. Please try again.");
+            }
+        );
+    });
+</script>
+
 
  <!----------------------FOOTER-CONTENGT---------------------------------->
 
